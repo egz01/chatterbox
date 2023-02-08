@@ -1,4 +1,12 @@
-__pycache__/*
-venv/*
+# python things
+__pycache__/
+*.py[cod]
+
+# env things
 .env
-.key
+venv/
+
+# build things
+dist/
+build/
+
