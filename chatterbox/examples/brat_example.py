@@ -1,6 +1,6 @@
 import chatterbox
 
-def run():
+def main():
   bot_name = "BratBot"
   bot_description = "A bratty little bot that likes to talk about itself." +\
                     "It usually replies very rudely, and doesn't care about what you say."
@@ -16,3 +16,6 @@ def run():
       response = brat_bot.get_next_message(human_input)
       print(f"{bot_name}: {response}")
 
+
+if __name__ == "__main__":
+  main()

@@ -14,6 +14,15 @@ And here is an example of a Chatterbox configured to be an annoying little brat 
 And lastly, here's an example of usage of the package to implement a sort of research assistant:
 <img width="790" alt="image" src="https://user-images.githubusercontent.com/12452166/218153409-97d62644-962a-4952-a162-848e6d9a4b5b.png">
 
-To use chatterbox you need an OpenAI API Key, as well as the openai package installed (pip install openai).
+Usage of chatterbox requires an OpenAI API Key, [which can be obtained here](https://platform.openai.com/account/api-keys).
+Note that usage of this API isn't free, however there's usually more than enough free credit for new users :)
 
-Once you have your OpenAI API Key, you can easily adapt the examples presented in the examples module.
+## Installation
+* using make (intended to work on linux, and only ever tested on linux):
+    1. clone this repository
+    2. place your API key in a .env: echo "export OPENAI_API_KEY=sk-..." > .env
+    3. run "source .env" to add this variable to your environment
+    4. run make install 
+
+## Othe rusage
+I haven't gotten around to document the library yet, however sample usage can be found in the examples module.

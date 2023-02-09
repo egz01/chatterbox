@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chatterbox"
+version = "0.0.1"
+authors = [
+  { name="Eviatar Zweigenberg", email="eviatarz@gmail.com" },
+]
+description = "A chat bot library based on OpenAI's GPT-3 API."
+readme = "README.md"
+requires-python = ">3.7"
+dependencies = [
+    "openai>=0.26.5",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/egz01/chatterbox"
+"Bug Tracker" = "https://github.com/egz01/chatterbox/issues"

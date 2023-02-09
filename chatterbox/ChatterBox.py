@@ -1,4 +1,4 @@
-import api_wrapper
+from . import api_wrapper
 
 CLEAN_CONVERSATION_HISTORY = CONVERSATION_HISTORY = """Human: Hello, how are you?""" + \
                                                     """AI assistant: Hi, I am fine. How can I help you today?"""
