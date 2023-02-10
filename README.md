@@ -1,7 +1,7 @@
 # chatterbox
 This is a GPT-3 based chatbot abstraction that allows the user to easily configure an instance to behave in vraious ways.
 
-For example, here is a ChatterBox instance configured to be a supporting frined (friend_example.py):
+For example, here is a ChatterBox instance configured to be a supporting friend (friend_example.py):
 
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/12452166/217963426-85c8d630-512e-46e8-8326-f9d6f0fbccef.png">
 
