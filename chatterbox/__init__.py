@@ -6,6 +6,7 @@ def _check_for_api_key():
 
 _check_for_api_key()
 
+
 from .ChatterBox import ChatterBox
 from .ChatterBox import extract_subject
 from .ChatterBox import extract_summary

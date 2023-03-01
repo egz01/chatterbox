@@ -41,6 +41,7 @@ def send_api_request(prompt, max_tokens=1024,
             break
         except openai.error.RateLimitError as e:
             max_tokens += tokens_step
+            
             if max_tokens >= _MAX_MAX_TOKENS:
                 raise e
     
