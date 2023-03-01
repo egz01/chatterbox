@@ -20,5 +20,5 @@ The result of a successful installation should look something like this:
 <img width="505" alt="image" src="https://user-images.githubusercontent.com/12452166/218300543-b8ed8403-2d07-4472-acb9-bc0e13a322af.png">
 
 
-## Othe rusage
+## Other usage
 I haven't gotten around to document the library yet, however sample usage can be found in the examples module.
